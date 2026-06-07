@@ -98,4 +98,5 @@ public class RegisterPage extends BaseClass {
     public void clickRegister() {
         clickOnElement(registerBtn);
     }
+
 }
