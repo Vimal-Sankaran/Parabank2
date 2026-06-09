@@ -1,17 +1,17 @@
 [ {
   "id" : "TC01",
   "customer" : {
-    "firstName" : "John",
-    "lastName" : "Smith",
-    "address" : "12, Anna Street",
-    "city" : "Chennai",
-    "state" : "TN",
-    "zipCode" : "600001",
-    "phoneNumber" : "9876543210",
-    "ssn" : "123456789"
+    "firstName" : null,
+    "lastName" : null,
+    "address" : "1 Kings street",
+    "city" : null,
+    "state" : null,
+    "zipCode" : null,
+    "phoneNumber" : "987654324567",
+    "ssn" : null
   },
   "credentials" : {
-    "username" : "john_demo",
+    "username" : "john_demo101",
     "password" : "demo123"
   },
   "accounts" : [ {
@@ -20,7 +20,8 @@
     "balance" : "",
     "availableBalance" : ""
   } ]
-}, {
+},
+  {
   "id" : "TC02",
   "customer" : {
     "firstName" : "Vijay",
@@ -37,41 +38,32 @@
     "password" : "demo123"
   },
   "accounts" : [ {
-    "accountNumber" : "",
-    "accountType" : "LOAN",
-    "balance" : "$1000.00",
-    "availableBalance" : "$1000.00"
-  }, {
-    "accountNumber" : "",
-    "accountType" : "",
-    "balance" : "",
-    "availableBalance" : ""
+    "accountNumber" : "14565",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
   } ]
-}, {
+},
+  {
   "id" : "TC03",
   "customer" : {
-    "firstName" : "Keith",
-    "lastName" : "Helen",
-    "address" : "11, Queen Street",
-    "city" : "Edinburgh",
-    "state" : "WC",
-    "zipCode" : "600034",
-    "phoneNumber" : "9876543123",
+    "firstName" : "Viji",
+    "lastName" : "Kumar",
+    "address" : "1, First Street",
+    "city" : "Chennai",
+    "state" : "TN",
+    "zipCode" : "600001",
+    "phoneNumber" : "9876543210",
     "ssn" : "123456789"
   },
   "credentials" : {
-    "username" : "keith_demo",
-    "password" : "keith123"
+    "username" : "Viji_Kumar32",
+    "password" : "Viji@Kumar@05@2026"
   },
   "accounts" : [ {
-    "accountNumber" : "",
-    "accountType" : "",
-    "balance" : "$1000.00",
-    "availableBalance" : "$1000.00"
-  }, {
-    "accountNumber" : "",
-    "accountType" : "",
-    "balance" : "",
-    "availableBalance" : ""
+    "accountNumber" : "15009",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
   } ]
 } ]

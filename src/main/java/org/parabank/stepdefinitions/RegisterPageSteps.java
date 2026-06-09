@@ -80,9 +80,8 @@ public class RegisterPageSteps extends BaseClass {
     }
 
     @Given("I click register button in registration page")
-    public void clickRegister() {
-        registerPage.clickRegister();
-    }
+    public void clickRegister() {registerPage.clickRegister();}
+
 
     @Given("I register customer with json {string}")
     public void registerCustomer(String id) {

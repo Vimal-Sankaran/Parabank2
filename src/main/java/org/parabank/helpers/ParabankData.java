@@ -19,6 +19,7 @@ public class ParabankData {
     @JsonProperty("accounts")
     private List<Account> accounts;
 
+
     // getters and setters
 
     public String getId() {
