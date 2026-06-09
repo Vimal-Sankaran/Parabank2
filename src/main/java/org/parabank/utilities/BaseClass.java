@@ -41,7 +41,7 @@ public class BaseClass {
         if (driver == null) {
 
             System.setProperty(
-                    "webdriver.chrome.driver",
+                    "Webdriver.chrome.driver",
                     config.getProperty("chromeDriverPath")
             );
 
