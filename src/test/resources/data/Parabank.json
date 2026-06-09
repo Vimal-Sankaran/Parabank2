@@ -20,8 +20,7 @@
     "balance" : "",
     "availableBalance" : ""
   } ]
-},
-  {
+}, {
   "id" : "TC02",
   "customer" : {
     "firstName" : "Vijay",
@@ -43,8 +42,7 @@
     "balance" : "$100.00",
     "availableBalance" : "$100.00"
   } ]
-},
-  {
+}, {
   "id" : "TC03",
   "customer" : {
     "firstName" : "Viji",
@@ -57,11 +55,91 @@
     "ssn" : "123456789"
   },
   "credentials" : {
-    "username" : "Viji_Kumar32",
+    "username" : "Viji_Kumar894",
     "password" : "Viji@Kumar@05@2026"
   },
   "accounts" : [ {
     "accountNumber" : "15009",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "14898",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "15453",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "16008",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "13788",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "13677",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "14121",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "14454",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "14676",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "17562",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "15786",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "20115",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "14787",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "15897",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "16341",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "16896",
+    "accountType" : "SAVINGS",
+    "balance" : "$100.00",
+    "availableBalance" : "$100.00"
+  }, {
+    "accountNumber" : "20226",
     "accountType" : "SAVINGS",
     "balance" : "$100.00",
     "availableBalance" : "$100.00"

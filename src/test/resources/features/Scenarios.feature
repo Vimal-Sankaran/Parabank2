@@ -23,7 +23,7 @@ Feature: ParaBank Customer Registration
 
 
     Scenario: Create a new savings account and capture details to json file
-      Given I register customer with json "TC03"
+      Given I register customer with json "TC01"
       Given I click New Account link to open account
       Given I select savings accounts in dropdown"1"
       Given I click open account
@@ -32,16 +32,24 @@ Feature: ParaBank Customer Registration
 
   Scenario: Bill payment
     Given I register customer with json "TC03"
-    And I create savings"1" account
+    And I create savings "1" account
     Then I capture new account details to json file"TC03"
     Given I click Bill Payment link from home page
     And I make bill payment"100.00" from savings account1 to Payee "TC02" using json file"TC03"
+    Given I transfer an amount of "100"
+    Given I click on Find Transactions page and find transactions by date and search by today's date "06-08-2026"
+    Given I click on Find Transactions page and find transactions by month and search by entering Start date "06-08-2026" and End date "06-08-2026"
+    Given I click on Find Transactions page and find transactions by amount and search by entering amount "100"
+
+
+
 
     Scenario: Update Customer information and store them in Json
       Given I register customer with json "TC03"
-      And I create savings"1" account
+      And I create savings "1" account
       Given I click Update Contact information link
       And I update the address"1 Kings street" and phone"987654324567"
-      And I click update profile button
+      And I click update
+    profile button
       Then I validate the update message
       And I update customer info"1 Kings street","987654324567" in Json"TC01"

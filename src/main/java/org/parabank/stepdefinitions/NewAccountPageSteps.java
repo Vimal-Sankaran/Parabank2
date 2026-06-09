@@ -30,7 +30,8 @@ public class NewAccountPageSteps extends BaseClass {
     public void setSelectAccountType(String value){newAccountPage.selectAccountType(value);}
 
     @Given("I click open account")
-    public void setSelectFromAcc(){newAccountPage.clickOpenAccount();}
+    public void setSelectFromAcc(){newAccountPage.clickOpenAccount();
+        System.out.println("New account opened");}
 
     @Given("I navigate to new account details page")
     public void setNewAccDetails(){
@@ -42,13 +43,14 @@ public class NewAccountPageSteps extends BaseClass {
         newAccountPage.getMessage1();
         newAccountPage.getMessage2();
     }
-    @And("I create savings{string} account")
+    @And("I create savings {string} account")
     public void createSavingsAccount(String value) throws InterruptedException {
         newAccountPage.clickNewAccountLink();
         newAccountPage.selectAccountType(value);
         Thread.sleep(3000);
         newAccountPage.clickOpenAccount();
         newAccountPage.clickNewAccID();
+        System.out.println("New account page done");
     }
     @Then("I capture new account details to json file{string}")
     public void getNewAccDetails(String id) throws InterruptedException {

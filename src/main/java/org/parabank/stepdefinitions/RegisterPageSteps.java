@@ -8,6 +8,7 @@ import org.parabank.pages.RegisterPage;
 
 import org.parabank.utilities.BaseClass;
 
+import java.sql.SQLOutput;
 import java.util.List;
 
 public class RegisterPageSteps extends BaseClass {
@@ -135,6 +136,7 @@ public class RegisterPageSteps extends BaseClass {
         );
 
         registerPage.clickRegister();
+        System.out.print("Registration done");
 
     }
 
