@@ -1,52 +1,77 @@
-[
-  {
-    "id": "TC01",
-    "customer": {
-      "firstName": "John",
-      "lastName": "Smith",
-      "address": "12, Anna Street",
-      "city": "Chennai",
-      "state": "TN",
-      "zipCode": "600001",
-      "phoneNumber": "9876543210",
-      "ssn": "123456789"
-    },
-    "credentials": {
-      "username": "john_demo",
-      "password": "demo123"
-    },
-    "accounts": [
-      {
-        "accountNumber": "",
-        "accountType": "",
-        "balance": "",
-        "availableBalance": ""
-      }
-    ]
+[ {
+  "id" : "TC01",
+  "customer" : {
+    "firstName" : "John",
+    "lastName" : "Smith",
+    "address" : "12, Anna Street",
+    "city" : "Chennai",
+    "state" : "TN",
+    "zipCode" : "600001",
+    "phoneNumber" : "9876543210",
+    "ssn" : "123456789"
   },
-  {
-    "id": "TC02",
-    "customer": {
-      "firstName": "Vijay",
-      "lastName": "Kumar",
-      "address": "5, MG Road",
-      "city": "Bangalore",
-      "state": "KA",
-      "zipCode": "560001",
-      "phoneNumber": "9123456780",
-      "ssn": "987654321"
-    },
-    "credentials": {
-      "username": "vijay_demo",
-      "password": "demo123"
-    },
-    "accounts": [
-      {
-        "accountNumber": "",
-        "accountType": "",
-        "balance": "",
-        "availableBalance": ""
-      }
-    ]
-  }
-]
+  "credentials" : {
+    "username" : "john_demo",
+    "password" : "demo123"
+  },
+  "accounts" : [ {
+    "accountNumber" : "",
+    "accountType" : "",
+    "balance" : "",
+    "availableBalance" : ""
+  } ]
+}, {
+  "id" : "TC02",
+  "customer" : {
+    "firstName" : "Vijay",
+    "lastName" : "Kumar",
+    "address" : "5, MG Road",
+    "city" : "Bangalore",
+    "state" : "KA",
+    "zipCode" : "560001",
+    "phoneNumber" : "9123456780",
+    "ssn" : "987654321"
+  },
+  "credentials" : {
+    "username" : "vijay_demo",
+    "password" : "demo123"
+  },
+  "accounts" : [ {
+    "accountNumber" : "",
+    "accountType" : "LOAN",
+    "balance" : "$1000.00",
+    "availableBalance" : "$1000.00"
+  }, {
+    "accountNumber" : "",
+    "accountType" : "",
+    "balance" : "",
+    "availableBalance" : ""
+  } ]
+}, {
+  "id" : "TC03",
+  "customer" : {
+    "firstName" : "Keith",
+    "lastName" : "Helen",
+    "address" : "11, Queen Street",
+    "city" : "Edinburgh",
+    "state" : "WC",
+    "zipCode" : "600034",
+    "phoneNumber" : "9876543123",
+    "ssn" : "123456789"
+  },
+  "credentials" : {
+    "username" : "keith_demo",
+    "password" : "keith123"
+  },
+  "accounts" : [ {
+    "accountNumber" : "",
+    "accountType" : "",
+    "balance" : "$1000.00",
+    "availableBalance" : "$1000.00"
+  }, {
+    "accountNumber" : "",
+    "accountType" : "",
+    "balance" : "",
+    "availableBalance" : ""
+  } ]
+} ]

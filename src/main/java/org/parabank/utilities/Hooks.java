@@ -14,11 +14,11 @@ public class Hooks extends BaseClass{
         loadURL(config.getProperty("url"));
     }
 
-    @After
-    public void tearDown() {
-        if (BaseClass.driver != null) {
-            closeBrowser();
-            BaseClass.driver = null;
-        }
-    }
+//    @After
+//    public void tearDown() {
+//        if (BaseClass.driver != null) {
+//            closeBrowser();
+//            BaseClass.driver = null;
+//        }
+//    }
 }
