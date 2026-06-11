@@ -45,3 +45,8 @@ Feature: ParaBank Customer Registration
       And I click update profile button
       Then I validate the update message
       And I update customer info"1 Kings street","987654324567" in Json"TC01"
+
+  Scenario: Register User and Capture Default Checking Account
+    Given I register customer with json "TC03"
+    Then I click Account Overview to get account details
+    Then I capture new checkings account details to json file"TC03"
